@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">SignLanguageReader</string>
+    <string name="sign_language_reader">Sign Language Reader</string>
+    <string name="recognize_gestures_from_image_gallery">Recognize Gestures From Image Gallery</string>
+    <string name="recognize_gestures_from_image">Recognize Gestures From Image</string>
+    <string name="recognize_gestures_from_video">Recognize Gestures From Video</string>
+    <string name="info">Info</string>
+    <string name="main_text_info">Choose type of recognition:</string>
+    <string name="model_conf_text_info">Configure model inference:</string>
+    <string name="choose_accelerator">Choose accelerator:</string>
+    <string name="cpu">CPU</string>
+    <string name="gpu">GPU</string>
+    <string name="nnapi">NNAPI</string>
+    <string name="set_number_of_threads">Set number of threads for CPU [1–10]:</string>
+    <string name="proceed">Proceed</string>
+    <string name="choose_model">Choose model:</string>
+    <string name="base_model">Base model</string>
+    <string name="model_with_decomposed_layers">Model with decomposed layers</string>
+    <string name="quantized_model_qat">Quantized model (QAT)</string>
+    <string name="quantized_model_ptq">Quantized model (PTQ)</string>
+    <string name="knowledge_distillation_model">Knowledge distillation model</string>
+    <string name="predict">Predict</string>
+    <string formatted="false" name="start_activity_info">Starting activity with the following configuration: buttonType: %d, modelType: %s, acceleratorType: %s, numOfThreads: %d</string>
+    <string formatted="false" name="log_message">frame %d - predicted gesture: %s, and inference time: %d ms</string>
+    <string formatted="false" name="classification_summary">"Gesture: %s, with probability: %.0f%%"</string>
+    <string formatted="false" name="classification_results">"%d; %s; %.2f; %d"</string>
+    <string formatted="false" name="images_dir_path">"%s/images"</string>
+    <string formatted="false" name="image_file_path">"%s/images/image_%s.txt"</string>
+    <string formatted="false" name="notification_img_dir_created">"Directory - %s/images - was created"</string>
+    <string formatted="false" name="notification_img_file_created">"File - image_%s.txt - was created in %s/images"</string>
+    <string formatted="false" name="results_dir_path">"%s/results%s%s%s"</string>
+    <string formatted="false" name="results_file_path">"%s/results%s%s%s/result_%s.txt"</string>
+    <string formatted="false" name="notification_dir_created">"Directory - %s - was created"</string>
+    <string formatted="false" name="notification_file_created">"File - result_%s.txt - was created in %s"</string>
+    <string formatted="false" name="pause_prediction_info">Resuming prediction of gesture "%s" in: %d seconds</string>
+    <string formatted="false" name="resume_prediction_info">Start prediction of gesture "%s"</string>
+    <string name="capture">Capture</string>
+    <string name="stop_acquisition">Stop acquisition</string>
+    <string name="gesture_to_test">Gesture to test (all if empty):</string>
+    <string name="vgg_19">VGG-19</string>
+    <string name="inception_v3">Inception V3</string>
+    <string name="mobilenet_v2">Mobilenet V2</string>
+    <string name="results_auto_save_interval_s">Auto save of results interval [s]</string>
+    <string name="set_recognition_mode">Set recognition mode</string>
+    <string name="all_gestures_recognition">All gestures recognition</string>
+    <string name="custom_recognition">Custom recognition</string>
+</resources>
