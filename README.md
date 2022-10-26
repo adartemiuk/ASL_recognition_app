@@ -1,0 +1,1 @@
+This is a part of my master thesis called "Real-time sign language recognition using deep learning". In this repository you can find code which allows to run an Android app. You only need to upload trained models into app/src/main/ml directory and put their paths in ModelLauncher class.
